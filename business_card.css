@@ -1,0 +1,56 @@
+body {
+  margin: 20px;
+  color: #2b2839;
+  /* background-color: #f1ded0; */
+  font-family: "Quicksand", serif;
+}
+
+@keyframes shadow_effect {
+  from {
+    box-shadow: 0px 0px 0px black;
+  }
+
+  to {
+    box-shadow: 2px 2px 15px black;
+  }
+}
+
+.card_main {
+  border-bottom: 6px solid #d8cefe;
+  padding: 20px;
+  display: flex;
+  padding: 20px;
+  justify-content: space-around;
+  width: 480px;
+  margin: 0 auto;
+  text-align: center;
+  background-color: #ddebf8;
+  border-radius: 3px;
+  animation-name: shadow_effect;
+  animation-duration: 3s;
+}
+.card_main h3 {
+  text-shadow: -1px 1px rgb(74, 2, 150), 1px -1px rgb(74, 2, 150);
+  font-size: 16px;
+  padding: 5px;
+  border-radius: 3px;
+  background-color: rgb(213, 160, 194);
+}
+
+.card_main h3:hover {
+  background-color: beige;
+}
+
+.images {
+  width: 200px;
+  border-radius: 3px;
+}
+
+/* .card_child {
+  padding: 20px;
+  margin: 20px;
+} */
+
+/* .dot_blue {
+  border: 2px dotted lightseagreen;
+} */
